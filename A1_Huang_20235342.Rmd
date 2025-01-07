@@ -28,7 +28,7 @@ data <- read.csv("measurements.csv")
 ```
 
 ```{r sort-data, echo=F}
-# Sorting the Data by species name, observer name, and volume
+# Sorting the Data by species name, observer name, and volume using arrange()
 sorted_data <- data %>%
   arrange(Organism, Observer, Volume)
 ```
@@ -71,6 +71,7 @@ ggplot(data, aes(x = Organism, y = Volume)) +
 # Creating histograms to show the frequency distribution
 ggplot(data, aes(x = Volume)) +
   geom_histogram(binwidth = 10, color = "skyblue") +
-  facet_wrap(~ Organism, scales = "fixed") +
+  # Uses fixed scale instead of free for better comparison between the histograms
+  facet_wrap(~ Organism, scales = "fixed") + 
   labs(x = "Volume", y = "Frequency")
 ```
