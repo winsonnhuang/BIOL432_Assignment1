@@ -1,0 +1,76 @@
+---
+title: "Assignment 1 Report"
+author: "Winson Huang"
+date: "January 07, 2025"
+output: html_document
+---
+[GitHub Repository](https://github.com/winsonnhuang/BIOL432_Assignment1)
+
+# Introduction
+This report analyzes hypothetical limb measurements and volumes using R scripts to summarize statistics using tables and figures.
+
+```{r setup, include=FALSE}
+# Load the required libraries for data manipulation, visualization and table formatting
+library(dplyr)
+library(ggplot2)
+library(knitr)
+```
+
+```{r run-scripts, echo=F}
+# Executing the R scripts to generate hypothetical data and caluclating limb volumes
+source("dataGenerato.R")
+source("volumeEstimato.R")
+```
+
+```{r load-data, echo=F}
+# Reading the processed data from the CSV file
+data <- read.csv("measurements.csv")
+```
+
+```{r sort-data, echo=F}
+# Sorting the Data by species name, observer name, and volume
+sorted_data <- data %>%
+  arrange(Organism, Observer, Volume)
+```
+
+# Average Species Volume
+
+```{r average-volume, echo=F}
+# Group data by species and calculate the mean volume for each species
+avg_volume <- data %>%
+  group_by(Organism) %>%
+  summarize(Average_Volume = mean(Volume, na.rm= TRUE))
+# Displays the average volume table
+kable(avg_volume)
+```
+
+
+# Number of Observations for each Combination of Species and Observer
+
+```{r count-observations, echo=F}
+# Group data by species and observer and count the number of rows in each group
+obs_count <- data %>%
+  group_by(Organism, Observer) %>%
+  summarize(Count = n(), .groups = "drop")
+# Displays the observation count table
+kable(obs_count, caption = "Observations by Species and Observer")
+```
+
+# Boxplot to compare key features of the distributions of volumes for each species
+
+```{r boxplot-volume, echo=F}
+# Creating a boxplot to visualize the distributions
+ggplot(data, aes(x = Organism, y = Volume)) +
+  geom_boxplot() +
+  labs(x = "Species", y = "Volume")
+```
+
+# Histograms to compare distribution of limb volume for each species
+
+```{r histogram, echo=F}
+# Creating histograms to show the frequency distribution
+ggplot(data, aes(x = Volume)) +
+  geom_histogram(binwidth = 10, color = "skyblue") +
+  facet_wrap(~ Organism, scales = "fixed") +
+  labs(x = "Volume", y = "Frequency")
+```
