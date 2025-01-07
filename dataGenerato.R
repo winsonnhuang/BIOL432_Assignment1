@@ -20,14 +20,13 @@ observer_vector <- sample(observer_names, 100, replace = TRUE)
 
 # Combining all the vectors into a data frame
 Organism <- species_vector
-Limb_width <- round(limb_width, 2) 
-Limb_length <- round(limb_length, 2)
+Limb_width <- round(limb_width, 2) # rounding to 2 decimal places
+Limb_length <- round(limb_length, 2) # rounding to 2 decimal places
 Observer <- observer_vector
 
 # Creating the data frame
 measurements <- data.frame(Organism, Limb_width, Limb_length, Observer)
 
-measurements
 # Exporting the data frame to a CSV file
 write.csv(measurements, file = "measurements.csv", row.names = FALSE)
 
