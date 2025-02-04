@@ -1,0 +1,101 @@
+"Organism","Limb_width","Limb_length","Observer","Volume"
+"Equus Caballus",3.82,38.86,"Jack A",445.368404040537
+" Felis Catus",5.86,41.63,"Jack A",1122.77187267016
+"Ursus Maritimus",4.81,49.13,"John C",892.743708519069
+"Equus Caballus",5.82,22.25,"John C",591.923886684468
+"Canis Lupus Familiaris",4.12,26.67,"John C",355.555441135913
+"Ursus Maritimus",4.91,54.97,"John C",1040.82712674122
+"Equus Caballus",6.83,41.6,"John C",1524.13915199567
+"Canis Lupus Familiaris",3.95,54.88,"Jack A",672.509115461149
+"Canis Lupus Familiaris",3.31,43.31,"Jack A",372.678254427527
+"Canis Lupus Familiaris",4.23,47.06,"Megan B",661.336570547019
+"Canis Lupus Familiaris",4.65,33.5,"John C",568.906104900054
+"Homo Sapiens",6.01,38.99,"John C",1106.09406126554
+"Ursus Maritimus",7.14,41.25,"Megan B",1651.62047369288
+"Ursus Maritimus",3.91,33.11,"John C",397.559903863407
+"Ursus Maritimus",3.52,36.39,"Megan B",354.125551522817
+"Equus Caballus",3.46,31.77,"John C",298.716556183551
+"Ursus Maritimus",3.31,38.11,"John C",327.932770173934
+"Ursus Maritimus",4.48,38.4,"Jack A",605.309003468242
+" Felis Catus",4.63,63.76,"Jack A",1073.49536043848
+"Ursus Maritimus",4.44,72.18,"John C",1117.56476138665
+"Ursus Maritimus",4.59,39.27,"John C",649.794683507171
+"Homo Sapiens",4.76,33.93,"Jack A",603.792405897907
+"Canis Lupus Familiaris",4.15,31.18,"John C",421.75688951893
+" Felis Catus",5.05,40.9,"Jack A",819.211321477576
+"Homo Sapiens",3.5,19.34,"Megan B",186.072605881306
+"Equus Caballus",3.44,34.91,"Megan B",324.456601829727
+"Canis Lupus Familiaris",5.42,45.8,"Megan B",1056.70541381108
+"Ursus Maritimus",3.67,23.19,"Jack A",245.314239799996
+"Homo Sapiens",3.63,50.62,"Megan B",523.87210306034
+"Homo Sapiens",4.58,46.31,"Jack A",762.949193666505
+"Canis Lupus Familiaris",4.32,53.27,"Jack A",780.800480248032
+"Homo Sapiens",5.52,60.83,"Megan B",1455.74683072346
+"Ursus Maritimus",6.75,42.36,"Megan B",1515.84005380657
+"Canis Lupus Familiaris",5.35,51.83,"John C",1165.14145443745
+"Equus Caballus",4.96,45.38,"Megan B",876.834695102263
+" Felis Catus",6.06,45.43,"John C",1310.32149833755
+"Canis Lupus Familiaris",4.78,50.74,"John C",910.533937461975
+"Homo Sapiens",7.92,53.43,"Megan B",2632.2396016196
+"Ursus Maritimus",4.58,37.68,"John C",620.771444987128
+"Equus Caballus",4.63,63.88,"John C",1075.51574066515
+"Homo Sapiens",5.74,52.26,"John C",1352.33121145177
+" Felis Catus",3.98,50.38,"John C",626.77864137969
+"Homo Sapiens",3.64,41.61,"John C",433.002460754292
+"Canis Lupus Familiaris",6.72,37.63,"Megan B",1334.63541799863
+"Equus Caballus",4.08,37.27,"Jack A",487.269917562172
+"Equus Caballus",3.6,45.43,"Megan B",462.421075778373
+" Felis Catus",6.48,35.13,"Megan B",1158.55870020659
+"Ursus Maritimus",4.49,27.31,"Jack A",432.418497584852
+"Homo Sapiens",4.02,37.58,"Megan B",476.978455869686
+"Equus Caballus",5.58,49.08,"Megan B",1200.22545507559
+"Equus Caballus",5.04,22.96,"Megan B",458.060494909708
+" Felis Catus",5.5,26.89,"Jack A",638.860537566161
+"Canis Lupus Familiaris",6.39,37.87,"John C",1214.47031188592
+"Canis Lupus Familiaris",4.83,40.17,"John C",736.013829349703
+"Homo Sapiens",4.15,55.68,"John C",753.156626312187
+"Canis Lupus Familiaris",4.88,28.37,"John C",530.626409455834
+"Homo Sapiens",6.64,38.18,"John C",1322.09287322296
+" Felis Catus",4.71,25.91,"Megan B",451.439034686562
+"Equus Caballus",4.78,46.68,"Jack A",837.6768663919
+"Homo Sapiens",5.84,45.6,"Megan B",1221.4632874315
+"Ursus Maritimus",6.05,46.64,"Megan B",1340.78509190122
+" Felis Catus",6.28,42.18,"Jack A",1306.51904339494
+"Ursus Maritimus",4.5,34.04,"Megan B",541.382808011495
+" Felis Catus",4.26,52.9,"Megan B",753.988551462784
+" Felis Catus",5.65,31.59,"Megan B",792.020463996629
+" Felis Catus",7.3,30.06,"John C",1258.12727591115
+"Ursus Maritimus",5.36,50.41,"John C",1137.46006553798
+"Equus Caballus",3.57,48.65,"John C",486.977794213083
+"Homo Sapiens",3.96,45.9,"Megan B",565.318162616224
+"Canis Lupus Familiaris",5.23,54.3,"John C",1166.52241610116
+"Ursus Maritimus",4.76,25.89,"Jack A",460.718696984875
+" Felis Catus",3.74,33.18,"John C",364.51001692422
+"Canis Lupus Familiaris",6.18,26.75,"Megan B",802.399441821064
+"Homo Sapiens",4.74,55.51,"John C",979.530113682902
+"Homo Sapiens",5.06,54.5,"Jack A",1095.94161269178
+"Equus Caballus",4.75,47.07,"Megan B",834.106103122097
+"Homo Sapiens",5.26,33.87,"Megan B",735.997884981588
+"Ursus Maritimus",5.85,47.79,"Megan B",1284.51341443388
+"Ursus Maritimus",5.23,20.69,"Jack A",444.481561494161
+"Equus Caballus",5.04,42.39,"Jack A",845.696183764047
+"Canis Lupus Familiaris",5.13,60.55,"Megan B",1251.52278028833
+" Felis Catus",4.29,44.6,"Megan B",644.672766718641
+"Equus Caballus",5.48,31.54,"John C",743.896794532102
+" Felis Catus",1.56,25.55,"Jack A",48.834863994845
+"Ursus Maritimus",5.33,36.79,"Megan B",820.869439157576
+" Felis Catus",4.78,39.4,"Megan B",707.036601024868
+"Equus Caballus",5.61,42.51,"Jack A",1050.76768667147
+"Homo Sapiens",3.15,49.54,"John C",386.070831708456
+"Ursus Maritimus",5.82,38.98,"Megan B",1036.99744282969
+"Ursus Maritimus",5.54,33.15,"John C",799.08493590782
+"Homo Sapiens",4.28,35.21,"John C",506.574639993733
+"Homo Sapiens",6.59,37.55,"John C",1280.76854174302
+" Felis Catus",5.49,21.89,"John C",518.179624351232
+"Canis Lupus Familiaris",6.16,40.13,"Megan B",1195.97049455194
+" Felis Catus",4.17,44.25,"Jack A",604.331547964959
+" Felis Catus",3.44,60.46,"Jack A",561.920542727737
+"Ursus Maritimus",4.18,36.73,"John C",504.038108660447
+"Ursus Maritimus",4.66,49.57,"Jack A",845.43579914014
+"Canis Lupus Familiaris",5,43.7,"Megan B",858.047493511712
+"Homo Sapiens",4.4,32.54,"John C",494.78073674741

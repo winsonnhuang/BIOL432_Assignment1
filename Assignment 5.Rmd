@@ -1,0 +1,40 @@
+---
+title: "Assignment 5 Report"
+author: "Winson Huang"
+date: "February 4, 2025"
+output: html_document
+---
+
+```{r github, include=FALSE}
+#https://github.com/winsonnhuang/BIOL432_Assignment1
+```
+
+```{r setup, include=FALSE}
+# Load the required libraries for data manipulation, visualization and table formatting
+library(dplyr)
+library(readr)
+```
+
+```{r import-data, echo=FALSE}
+# Import the data
+MData <- read_csv("measurements.csv")
+```
+
+```{r modify-data, echo=FALSE}
+# Creating a new column with shortened name
+MData <- MData %>%
+  mutate(Sp = sub("^(\\w)\\w*\\s", "\\1. ", Organism))
+
+# Checking for changes
+head(MData)
+
+# Selecting the Sp column and removing the original organism column
+MeasShort <- MData %>%
+  select(Sp, everything(), -Organism)
+
+# Checking for changes
+head(MeasShort)
+
+# Saving the modified data to a csv file
+write_csv(MeasShort, "MeasShort.csv")
+```
